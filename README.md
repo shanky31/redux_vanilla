@@ -30,8 +30,6 @@ The aim of the exercise is to understand and use Redux with vanilla JavaScript
 
 ## Concepts & Resources ℹ️
 
-1. [Document](http://javascript.info/document)
-2. [Events](http://javascript.info/events)
-3. [UI Events](http://javascript.info/event-details)
-4. [Forms, controls](http://javascript.info/forms-controls)
-5. [Document and resource loading](http://javascript.info/loading)
+1. [Getting Started](https://redux.js.org/introduction/getting-started)
+2. [Core Concept](https://redux.js.org/introduction/core-concepts)
+3. [Three Principles](https://redux.js.org/introduction/three-principles)
