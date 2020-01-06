@@ -10,7 +10,7 @@ Create a counte with three functionality i.e `increment` `decrement` and `reset`
 
 **STAGE 2**
 
-Limit the increment or decrement value to be between between 0 - 10. Or else `alert` error message.
+Limit the increment or decrement value to be between between 0 - 100. Or else `alert` error message.
 
 **STAGE 3**
 
