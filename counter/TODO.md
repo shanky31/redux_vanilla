@@ -10,8 +10,8 @@ Create a counte with three functionality i.e `increment` `decrement` and `reset`
 
 **STAGE 2**
 
-Limit the increment or decrement value to be between between 0 - 10. Or else `alert` message saying the message.
+Limit the increment or decrement value to be between between 0 - 10. Or else `alert` error message.
 
 **STAGE 3**
 
-Make a additional set of button which will have 5,8,10,12,14,16 as values. By default the value to increment by will be 1. But when you click on one of these button like say (5). Now if you click increment it will increment and decrement the value 5.
+Make a additional set of button which will have 5,8,10,12,14,16 as values. By default the value should increment or decrement by 1. But when you click on one of these button like say (5) it should increment or decrement by the value 5.
