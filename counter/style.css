@@ -4,26 +4,39 @@
     -moz-box-sizing:border-box;
     box-sizing:border-box;
 }
+h1 {
+    font-size: 4rem;
+}
+.wrapper {
+    width: 300px;
+    margin: 0 auto;
+}
 .buttons {
     margin-top: 1rem;
     font-size: 1rem;
+    display: flex;
+    justify-content: space-around;
 }
 button {
     border: none;
     padding: 5px;
     cursor: pointer;
     margin: 5px;
+    border: transparent;
+    outline: none;
 }
 body {
     font-family: 'Oswald', sans-serif;
 }
 button.orange {
     color: white;
-    font-size: x-large;
+    font-size: 1rem;
     border: 1px solid #FB8F3D; 
-    background: -webkit-linear-gradient(top, #FDA251, #FB8F3D);
-    background: -moz-linear-gradient(top, #FDA251, #FB8F3D);
-    background: -ms-linear-gradient(top, #FDA251, #FB8F3D);
+    background: #200122;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #6f0000, #200122);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #6f0000, #200122); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+    border-radius: 3px;;
 }
 button.orange:hover {
     border: 1px solid #EB5200;
@@ -37,17 +50,11 @@ button.orange:hover {
     text-transform: uppercase;
     text-decoration: none;
     background: #ed3330;
+    font-size: 1rem;
     padding: 10px;
-    border-radius: 5px;
+    border-radius: 3px;
     display: inline-block;
-    border: none;
-    transition: all 0.4s ease 0s;
 }
 .btn:hover {
     background: #434343;
-    letter-spacing: 1px;
-    -webkit-box-shadow: 0px 5px 40px -10px rgba(0,0,0,0.57);
-    -moz-box-shadow: 0px 5px 40px -10px rgba(0,0,0,0.57);
-    box-shadow: 5px 40px -10px rgba(0,0,0,0.57);
-    transition: all 0.4s ease 0s;
 }
